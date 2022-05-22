@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
@@ -104,3 +105,6 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+=======
+# Challenge-2
+>>>>>>> d89de6f0b498a062e1a523b2727f2a6d86050348
