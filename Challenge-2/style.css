@@ -63,7 +63,49 @@ img {
 }
 
 #subtitle {
-    position: relative;
-    top: -50px;
-    left: 95%;
+    display: flex;
+    margin: 40px;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--blue-color);
+    color: var(--nav-gray)
+}
+
+#intro-image {
+    display: flex;
+    background-image: url(/CONN-VIRT-FSF-PT-05-2022-U-LOLC/02-Advanced-CSS/02-Challenge/Assets/pexels-roman-odintsov-4871011.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Main content */
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+#main-content  h1 {
+    padding: 20px;
+    text-align: end;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px var(--nav-gray) solid;
+    padding-left: 10px;
+}
+
+.paragraphs > p {
+    margin-bottom: 10px;
+  
 }
