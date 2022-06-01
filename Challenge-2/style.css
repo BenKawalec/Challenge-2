@@ -109,3 +109,21 @@ img {
     margin-bottom: 10px;
   
 }
+
+#work {
+    display: flex;
+}
+
+#sideprojects {
+
+}
+
+.projects {
+
+}
+
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+}
