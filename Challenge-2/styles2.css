@@ -89,13 +89,23 @@ img {
     display: flex;
 }
 
-.name {
-    width: 20%;
-    text-align: end;
-    margin-right: 10px;
+.name > h1 {
+    width: 200px;
+    margin-left: 20px;
 }
 
-p {
+
+/* Images */
+
+#sideprojects {
     display: flex;
-    max-width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+.sideprojects {
+    width: 50%;
+    display: flex;
+}
+
+
