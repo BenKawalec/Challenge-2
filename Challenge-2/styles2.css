@@ -7,6 +7,7 @@
 :root {
     --blue-color: rgb(189, 251, 255);
     --nav-gray: rgb(79, 84, 90);
+    --hover-gray: rgb(142, 151, 163);
 }
 
 /* Nar Bar */
@@ -190,4 +191,55 @@ p {
 .img-wrapper:hover > .main-container,
 .img-wrapper > img {
     transition: ease-in-out 300ms;
+}
+
+
+
+
+.projects > h2, 
+.sideprojects > h2 {
+    position: absolute;
+    background-color: var(--blue-color);
+    bottom: 30%;
+    padding: 15px;
+    z-index: 1;
+}
+
+.side-title {
+    left: 10px;
+}
+
+
+/* Contact Me section */
+
+
+#contactTitle {
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contactme {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+   
+}
+
+#contactme > li {
+    list-style: none;
+}
+
+#contactme > li > a {
+    color: var(--nav-gray);
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid var(--nav-gray);
+}
+
+
+#contactme > li > a:hover {
+    color: var(--hover-gray);
+    border-bottom: 3px solid var(--hover-gray);
 }
